@@ -72,7 +72,7 @@ in the article from the material here.
                                 (regenerable, not required as input).
 
     LICENSE                     Verbatim CC BY-SA 4.0 legal code.
-    CITATION.cff                Machine-readable citation metadata (CFF 1.2.0).
+    CITATION.cff                Machine-readable citation metadata (CFF 1.1.0).
 
 ## Data splits
 

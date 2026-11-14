@@ -1,52 +1,9 @@
-cff-version: 1.2.0
-message: >-
-  If you use this dataset, please cite both the journal article and the
-  dataset, attributed to their respective authors.
+cff-version: "1.1.0"
+message: "If you use the dataset KLCC Parking Occupancy 2022-2024 (see README.md), please cite it as below."
 title: "KLCC Parking Occupancy 2022-2024"
-type: dataset
-version: 1.0.0
-date-released: "2026-11-15"
-license:
-  - CC-BY-SA-4.0
-license-url: https://creativecommons.org/licenses/by-sa/4.0/legalcode
-url: https://mypapit.net
-abstract: >-
-  Ten-minute parking occupancy series for the KLCC site (site 7, NWD, total
-  capacity 5300 bays), derived from raw readings spanning 1 January 2021 to
-  31 March 2024, together with the cleaned 10-minute series from 25 April 2022
-  and the event, holiday, festive-period and weather series used by the
-  accompanying article.
-keywords:
-  - parking occupancy
-  - anomaly detection
-  - LSTM autoencoder
-  - fault screening
-  - time series
-  - reproducibility
+version: "2026-11-14"
+date-released: 2026-11-14
 authors:
   - family-names: Ismail
     given-names: Mohammad Hafiz bin
-    affiliation: "Faculty of Computer and Mathematical Sciences, Universiti Teknologi MARA, Arau, 02600, Malaysia"
-    email: mohammadhafiz@uitm.edu.my
-    website: https://mypapit.net
-    alias: mypapit
-  - family-names: Razak
-    given-names: Tajul Rosli
-    affiliation: "Faculty of Computer and Mathematical Sciences, Universiti Teknologi MARA, Shah Alam, 40450, Malaysia"
-preferred-citation:
-  type: article
-  title: >-
-    Temporal Anomaly Detection in Vehicle Parking Occupancy Data Using LSTM
-    Autoencoder and Rule-Based Fault Screening
-  year: 2026
-  journal: Journal of Telecommunication, Electronic and Computer Engineering
-  issn: 2180-1843
-  url: https://jtec.utem.edu.my
-  authors:
-    - family-names: Ismail
-      given-names: Mohammad Hafiz bin
-      affiliation: "Faculty of Computer and Mathematical Sciences, Universiti Teknologi MARA, Arau, 02600, Malaysia"
-      email: mohammadhafiz@uitm.edu.my
-    - family-names: Razak
-      given-names: Tajul Rosli
-      affiliation: "Faculty of Computer and Mathematical Sciences, Universiti Teknologi MARA, Shah Alam, 40450, Malaysia"
+    orcid: "https://orcid.org/0000-0001-5798-4926"
