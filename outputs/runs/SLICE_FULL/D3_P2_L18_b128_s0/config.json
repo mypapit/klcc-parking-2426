@@ -1,0 +1,7 @@
+{
+  "batch": 128,
+  "depth": "D3",
+  "length": 18,
+  "prep": "P2",
+  "seed": 0
+}

@@ -1,0 +1,32 @@
+{
+  "deterministic_ops": true,
+  "epochs": 80,
+  "events_testA": 90,
+  "fault_rows": 12,
+  "final_train_loss": 0.002323861001059413,
+  "final_val_loss": 0.0004646791494451463,
+  "mask": {
+    "mask_min_run": 6,
+    "train": {
+      "already_missing": 743,
+      "masked_share": 0.019605,
+      "newly_masked": 913,
+      "points": 46569,
+      "windows": 43597
+    },
+    "val": {
+      "already_missing": 24,
+      "masked_share": 0.032854,
+      "newly_masked": 510,
+      "points": 15523,
+      "windows": 14377
+    }
+  },
+  "params": 584257,
+  "run": "D3_P0_L18_b128_s2",
+  "thresholds": {
+    "p95": 0.0006994578056037403,
+    "p99_5": 0.0037500599026679777,
+    "pot_1e3": 0.3345066495852176
+  }
+}

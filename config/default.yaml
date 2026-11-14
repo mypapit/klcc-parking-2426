@@ -1,0 +1,59 @@
+project:
+  root: /edata/opt/klcc-experiment/klcc_ad
+  python: /edata/opt/klcc-experiment/.venv/bin/python
+  timezone: Asia/Kuala_Lumpur
+data:
+  raw: /edata/opt/klcc-experiment/klcc_ad/data/raw/klcc-parking.csv
+  processed: /edata/opt/klcc-experiment/klcc_ad/data/processed/klcc_10min.parquet
+  external: /edata/opt/klcc-experiment/klcc_ad/data/external
+  siteid: 7
+  expected_sitename: NWD
+  expected_siterename: KLCC
+  expected_totalbay: 5300
+  exclusion_start: "2022-04-25 00:00:00"
+  freq: 10min
+  interpolation_max_bins: 3
+splits:
+  history_end: "2023-12-31 23:59:59"
+  test_b_start: "2024-01-01 00:00:00"
+  test_b_end: "2024-03-31 23:59:59"
+  train_val_fraction: 0.70
+  val_within_train_fraction: 0.25
+windows:
+  lengths: [6, 18, 36]
+  stride: 1
+preprocessing:
+  variants: [P0, P1, P2]
+  p2_slots_per_week: 1008
+models:
+  depths: [D1, D2, D3]
+  batch_sizes: [128]
+  seeds: [0, 1, 2, 3, 4]
+  max_epochs: 100
+  patience: 10
+  learning_rate: 0.001
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1.0e-7
+  mixed_precision: false
+thresholds:
+  percentiles: [95, 97, 99, 99.5, 99.9]
+  pot_risks: [0.001, 0.0001]
+  rolling_days: 7
+injection:
+  faults: [F1, F2, F3, F4, F5, F6]
+  copies: 5
+  injections_per_copy: 10
+  min_gap_days: 2
+  testsets: [testA, testB]
+outputs:
+  root: /edata/opt/klcc-experiment/klcc_ad/outputs
+  runs: /edata/opt/klcc-experiment/klcc_ad/outputs/runs
+  tables: /edata/opt/klcc-experiment/klcc_ad/outputs/tables
+  figures: /edata/opt/klcc-experiment/klcc_ad/outputs/figures
+  env: /edata/opt/klcc-experiment/klcc_ad/outputs/env
+  data: /edata/opt/klcc-experiment/klcc_ad/outputs/data
+  injections: /edata/opt/klcc-experiment/klcc_ad/outputs/injections
+  summary: /edata/opt/klcc-experiment/klcc_ad/outputs/RESULTS_SUMMARY.md
+  assumptions: /edata/opt/klcc-experiment/klcc_ad/outputs/ASSUMPTIONS.md
+  issues: /edata/opt/klcc-experiment/klcc_ad/outputs/ISSUES.md

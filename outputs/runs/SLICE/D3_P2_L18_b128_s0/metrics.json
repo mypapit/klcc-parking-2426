@@ -1,0 +1,14 @@
+{
+  "batch": 128,
+  "depth": "D3",
+  "epochs": 100,
+  "final_train_loss": 0.0013243381399661303,
+  "final_val_loss": 0.0011575722601264715,
+  "gpu_devices": [
+    "/physical_device:GPU:0"
+  ],
+  "length": 18,
+  "params": 584257,
+  "prep": "P2",
+  "seed": 0
+}

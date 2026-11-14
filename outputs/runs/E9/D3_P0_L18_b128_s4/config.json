@@ -1,0 +1,9 @@
+{
+  "batch": 128,
+  "depth": "D3",
+  "exp": "E9",
+  "length": 18,
+  "mask_full_capacity": 6,
+  "prep": "P0",
+  "seed": 4
+}

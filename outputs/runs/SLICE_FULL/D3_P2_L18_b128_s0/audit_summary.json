@@ -1,0 +1,12 @@
+{
+  "audit_categories": {
+    "demand anomaly": 336,
+    "sensor-suspect": 8
+  },
+  "binomial_p": 0.11322256543757206,
+  "events": 344,
+  "matched_to_holiday": 18,
+  "p0": 0.03820497271073378,
+  "permutation_p": 0.156,
+  "run": "D3_P2_L18_b128_s0"
+}

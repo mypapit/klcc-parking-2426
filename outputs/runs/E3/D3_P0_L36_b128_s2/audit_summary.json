@@ -1,0 +1,16 @@
+{
+  "audit_categories": {
+    "KLCC event": 38,
+    "heavy rain": 1,
+    "public holiday": 4,
+    "sensor-suspect": 6,
+    "unexplained": 31,
+    "weekend": 8
+  },
+  "binomial_p": 1.0508809879320176e-05,
+  "events": 88,
+  "matched_to_special_day": 41,
+  "p0": 0.25111475284881285,
+  "permutation_p": 0.0,
+  "run": "D3_P0_L36_b128_s2"
+}

@@ -1,0 +1,8 @@
+{
+  "batch": 128,
+  "depth": "D3",
+  "exp": "E1",
+  "length": 18,
+  "prep": "P1",
+  "seed": 2
+}

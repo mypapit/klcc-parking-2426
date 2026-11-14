@@ -1,0 +1,16 @@
+{
+  "anomaly_days": 22,
+  "audit_categories": {
+    "KLCC event": 1,
+    "heavy rain": 1,
+    "public holiday": 6,
+    "unexplained": 24
+  },
+  "day_level_event_binomial_p": 0.8988434238415304,
+  "day_level_event_permutation_p": 0.9275,
+  "day_level_weekend_permutation_p": 0.0146,
+  "events": 32,
+  "run": "D3_P0_L18_b128_s0",
+  "split": "testB",
+  "unexplained_on_weekend": 17
+}

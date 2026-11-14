@@ -1,0 +1,34 @@
+item,value
+python,3.12.3
+tensorflow,2.20.0
+cuda_version,12.5.1
+cudnn_version,9
+gpu,NVIDIA GeForce RTX 4060 Ti 16380 MiB
+gpu_driver,615.71.10
+os,"Ubuntu 24.04 (Linux 6.8, native)"
+memory,62 GiB
+D1_params,444865
+D2_params,556225
+D3_params,584257
+D3_params_expected_by_handover,584257
+loss,MSE
+optimizer,Adam lr=0.001 beta1=0.9 beta2=0.999 epsilon=1e-7
+initialisation,"Keras defaults: glorot_uniform kernel, orthogonal recurrent, zeros bias, unit_forget_bias=True"
+batch_size_main,128
+batch_size_E1,32 and 128
+max_epochs,100
+early_stopping,"monitor val_loss, patience 10, restore_best_weights=True"
+mixed_precision,off (float32)
+seeds,0 1 2 3 4
+determinism,tf.config.experimental.enable_op_determinism() enabled
+windows_lengths,"6, 18, 36 (1h, 3h, 6h at 10-minute resolution)"
+window_stride,1
+score_rule,"MSE over window, assigned to the window's last timestamp"
+event_merge_rule,consecutive flags with a gap of at most L steps are one event
+preprocessing_variants,"P0 z-score, P1 z-score minus causal trailing MA, P2 z-score minus weekly 7x144 profile"
+threshold_methods,"percentile p95/97/99/99.5/99.9, validation p99.5, POT risk 1e-3 and 1e-4, rolling 7-day p99.5"
+injection_faults,"F1 stuck, F2 zero, F3 full, F4 spike, F5 drift, F6 noise burst"
+injection_copies,"5 copies x 10 injections, at least 2 days apart"
+label_rule,a window-end timestamp is positive if the window overlaps the injected segment
+splits,"chronological only; scaler, seasonal profile and thresholds fitted on train"
+freezing,outputs/env/requirements_frozen.txt

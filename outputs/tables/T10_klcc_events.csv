@@ -1,0 +1,17 @@
+date_start,date_end,duration_days,event_name,venue,source_url,has_source,detections_in_window
+2023-07-12,2023-07-14,3,MIFB 2023 (22nd Malaysian International Food & Beverage Trade Fair),KLCC,https://www.eamo.my/e2604-20230712-malaysian-international-food-and-beverage-trade-fair-2023,True,7
+2023-07-26,2023-07-29,4,"ARCHIDEX 2023 (22nd International Architecture, Interior Design and Building Exhibition)",KLCC,https://www.showsbee.com/fairs/75122-ARCHIDEX-2023.html,True,66
+2023-08-13,2023-08-13,1,Siti Nurhaliza and Mila Mila,KLCC,https://www.songkick.com/concerts/41312887-siti-nurhaliza-at-kuala-lumpur-convention-centre,True,4
+2023-09-13,2023-09-15,3,Oil & Gas Asia (OGA) 2023,KLCC,https://web.archive.org/web/20230131064542id_/https://expotobi.com/oil-gas-asia,True,97
+2023-09-19,2023-09-22,4,Food & Hotel Malaysia (FHM) 2023,KLCC,https://www.showsbee.com/fairs/76915-Food-Hotel-Malaysia-2023.html,True,116
+2023-09-27,2023-09-30,4,Beautyexpo & Cosmobeaute Malaysia 2023,KLCC,https://web.archive.org/web/20221209015631id_/https://expotobi.com/beautyexpo-malaysia,True,194
+2023-10-04,2023-10-06,3,IGEM 2023 (International Greentech & Eco Products Exhibition & Conference Malaysia),KLCC,https://www.astronergy.com/expo/malaysia-igem-2023/,True,107
+2023-10-08,2023-10-11,4,2023 IEEE International Conference on Image Processing (ICIP 2023),KLCC,https://2023.ieeeicip.org/,True,26
+2023-10-10,2023-10-12,3,LabAsia 2023 (8th Malaysia Laboratory and Analytical Equipment Exhibition),KLCC,https://www.showsbee.com/fairs/57983-Lab-Asia-Malaysia-2023.html,True,11
+2023-10-26,2023-10-29,4,HOMEDEC Kuala Lumpur 2023 (October edition),KLCC,https://www.eamo.my/e2619-20231026-2023-homedec-kuala-lumpur-home-design-and-interior-exhibition,True,37
+2023-11-14,2023-11-15,2,Malaysia International Marine Expo (MIMEX) 2023,KLCC,https://www.showsbee.com/fairs/66409-Malaysia-International-Marine-Expo-2023.html,True,7
+2023-11-22,2023-11-24,3,E-Mobility Asia (EMA) 2023 Exhibition & Conference,KLCC,https://emobilityasia.com/wp-content/uploads/2023/09/Unlocking-Insights-with-EMA-Exhibition-Conference-2023.pdf,True,30
+2023-11-29,2023-12-01,3,Livestock Malaysia 2023,KLCC,https://web.archive.org/web/20230207135150id_/https://expotobi.com/livestock-asia,True,11
+2023-12-02,2023-12-02,1,AFGAN Live in Concert with Orchestra 2023,"Plenary Hall, KLCC",https://glitz.beautyinsider.my/afgan-live-in-concert-with-orchestra-kuala-lumpur/,True,0
+2024-02-22,2024-02-27,6,The 3 Masters Dental Conference KL 2024,KLCC,https://www.clocate.com/the-3-masters-dental-conference-kl/101475/,True,22
+2024-02-27,2024-03-01,4,OTC Asia 2024 (Offshore Technology Conference Asia),"Halls 1 & 2, KLCC",https://www.showsbee.com/fairs/64695-OTC-Asia-2024.html,True,18

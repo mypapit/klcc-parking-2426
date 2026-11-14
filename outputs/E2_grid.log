@@ -1,0 +1,1011 @@
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 6 --batch 128 --seed 0
+2026-11-08 23:32:56.232996: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-08 23:32:56.269705: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-08 23:32:56.958084: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794151978.316580 3388599 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-08 23:32:59.805424: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L6_b128_s0",
+  "params": 444865,
+  "epochs": 100,
+  "final_train_loss": 5.286909799906425e-05,
+  "final_val_loss": 5.664445779984817e-05,
+  "thresholds": {
+    "p95": 0.00011326993262628093,
+    "p99_5": 0.0006874882383272052,
+    "pot_1e3": 0.00904518456145103
+  },
+  "events_testA": 365,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 6 --batch 128 --seed 1
+2026-11-08 23:36:12.612117: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-08 23:36:12.647471: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-08 23:36:13.348308: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794152174.691866 3414958 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-08 23:36:16.198956: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L6_b128_s1",
+  "params": 444865,
+  "epochs": 83,
+  "final_train_loss": 4.4954846089240164e-05,
+  "final_val_loss": 4.2640589526854455e-05,
+  "thresholds": {
+    "p95": 0.00013556973135564476,
+    "p99_5": 0.0007034262525849044,
+    "pot_1e3": 0.027782227307056706
+  },
+  "events_testA": 371,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 6 --batch 128 --seed 2
+2026-11-08 23:38:59.811373: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-08 23:38:59.846252: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-08 23:39:00.535022: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794152341.886814 3437055 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-08 23:39:03.390696: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L6_b128_s2",
+  "params": 444865,
+  "epochs": 89,
+  "final_train_loss": 3.5466011468088254e-05,
+  "final_val_loss": 4.641316627385095e-05,
+  "thresholds": {
+    "p95": 0.00012463252642191947,
+    "p99_5": 0.0005986933829262853,
+    "pot_1e3": 0.01845032504907359
+  },
+  "events_testA": 369,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 6 --batch 128 --seed 3
+2026-11-08 23:42:05.432467: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-08 23:42:05.468051: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-08 23:42:06.173977: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794152527.516030 3460717 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-08 23:42:09.013738: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L6_b128_s3",
+  "params": 444865,
+  "epochs": 36,
+  "final_train_loss": 0.000235315557802096,
+  "final_val_loss": 0.00020271740504540503,
+  "thresholds": {
+    "p95": 0.000652118818834424,
+    "p99_5": 0.003996772225946188,
+    "pot_1e3": 0.10491076518033614
+  },
+  "events_testA": 166,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 6 --batch 128 --seed 4
+2026-11-08 23:43:23.259270: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-08 23:43:23.294870: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-08 23:43:23.984782: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794152605.401484 3471363 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-08 23:43:26.910234: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L6_b128_s4",
+  "params": 444865,
+  "epochs": 84,
+  "final_train_loss": 5.620792580884881e-05,
+  "final_val_loss": 0.0002371687296545133,
+  "thresholds": {
+    "p95": 0.00012854377564508468,
+    "p99_5": 0.0007058564224280417,
+    "pot_1e3": 0.017568164889540844
+  },
+  "events_testA": 360,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 18 --batch 128 --seed 0
+2026-11-08 23:46:14.425193: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-08 23:46:14.459922: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-08 23:46:15.145984: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794152776.508614 3493467 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-08 23:46:18.139881: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L18_b128_s0",
+  "params": 444865,
+  "epochs": 100,
+  "final_train_loss": 0.00011523318971740082,
+  "final_val_loss": 0.00015229616838041693,
+  "thresholds": {
+    "p95": 0.00036985514452680945,
+    "p99_5": 0.0015956178540363908,
+    "pot_1e3": 0.09230122919769743
+  },
+  "events_testA": 118,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 18 --batch 128 --seed 1
+2026-11-08 23:50:40.114045: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-08 23:50:40.148924: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-08 23:50:40.846689: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794153042.199292 3523489 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-08 23:50:43.814608: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L18_b128_s1",
+  "params": 444865,
+  "epochs": 76,
+  "final_train_loss": 0.00029210347565822303,
+  "final_val_loss": 0.00020546909945551306,
+  "thresholds": {
+    "p95": 0.00048394547775387764,
+    "p99_5": 0.0023234819527715445,
+    "pot_1e3": 0.23719425694457608
+  },
+  "events_testA": 109,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 18 --batch 128 --seed 2
+2026-11-08 23:54:02.034427: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-08 23:54:02.073823: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-08 23:54:02.787812: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794153244.124742 3546500 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-08 23:54:05.780285: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L18_b128_s2",
+  "params": 444865,
+  "epochs": 66,
+  "final_train_loss": 0.000279610394500196,
+  "final_val_loss": 0.00023642796440981328,
+  "thresholds": {
+    "p95": 0.0006295638740994036,
+    "p99_5": 0.0030355502385646105,
+    "pot_1e3": 0.37767310594113324
+  },
+  "events_testA": 92,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 18 --batch 128 --seed 3
+2026-11-08 23:56:58.750664: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-08 23:56:58.786729: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-08 23:56:59.493255: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794153420.839747 3567501 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-08 23:57:02.402530: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L18_b128_s3",
+  "params": 444865,
+  "epochs": 100,
+  "final_train_loss": 0.0001225610903929919,
+  "final_val_loss": 0.0001279433781746775,
+  "thresholds": {
+    "p95": 0.00028670375468209386,
+    "p99_5": 0.0011090001789852977,
+    "pot_1e3": 0.04284972715252877
+  },
+  "events_testA": 156,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 18 --batch 128 --seed 4
+2026-11-09 00:01:19.971732: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:01:20.006992: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:01:20.691479: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794153682.058460 3598167 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:01:23.621349: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L18_b128_s4",
+  "params": 444865,
+  "epochs": 100,
+  "final_train_loss": 0.0006999918259680271,
+  "final_val_loss": 0.0005969814374111593,
+  "thresholds": {
+    "p95": 0.00036112754605710506,
+    "p99_5": 0.0014397876802831888,
+    "pot_1e3": 0.06017798762827711
+  },
+  "events_testA": 143,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 36 --batch 128 --seed 0
+2026-11-09 00:05:43.565201: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:05:43.603803: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:05:44.311421: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794153945.568956 3628033 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:05:47.482935: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L36_b128_s0",
+  "params": 444865,
+  "epochs": 80,
+  "final_train_loss": 0.002420498291030526,
+  "final_val_loss": 0.0036291873548179865,
+  "thresholds": {
+    "p95": 0.001010477775707841,
+    "p99_5": 0.0043158456683158875,
+    "pot_1e3": 0.3529028043197306
+  },
+  "events_testA": 73,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 36 --batch 128 --seed 1
+2026-11-09 00:10:43.764977: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:10:43.800064: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:10:44.495529: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794154245.745770 3658601 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:10:47.656384: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L36_b128_s1",
+  "params": 444865,
+  "epochs": 100,
+  "final_train_loss": 0.0024143580812960863,
+  "final_val_loss": 0.003149641677737236,
+  "thresholds": {
+    "p95": 0.0007294302922673523,
+    "p99_5": 0.003969922661781311,
+    "pot_1e3": 0.7114907553733733
+  },
+  "events_testA": 62,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 36 --batch 128 --seed 2
+2026-11-09 00:16:52.870520: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:16:52.905780: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:16:53.598928: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794154615.022474 3695307 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:16:56.848205: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L36_b128_s2",
+  "params": 444865,
+  "epochs": 100,
+  "final_train_loss": 0.00034804624738171697,
+  "final_val_loss": 0.0004241175774950534,
+  "thresholds": {
+    "p95": 0.0008475864306092262,
+    "p99_5": 0.004235458094626665,
+    "pot_1e3": 0.38456089424558415
+  },
+  "events_testA": 65,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 36 --batch 128 --seed 3
+2026-11-09 00:23:05.228379: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:23:05.263492: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:23:05.960903: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794154987.257500 3731938 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:23:09.170711: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L36_b128_s3",
+  "params": 444865,
+  "epochs": 100,
+  "final_train_loss": 0.0003751545737031847,
+  "final_val_loss": 0.0005670918617397547,
+  "thresholds": {
+    "p95": 0.0008654090343043208,
+    "p99_5": 0.003709198907017708,
+    "pot_1e3": 0.3960174312827547
+  },
+  "events_testA": 69,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D1 --prep P0 --length 36 --batch 128 --seed 4
+2026-11-09 00:29:12.518211: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:29:12.553343: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:29:13.239086: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794155354.509663 3769248 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:29:16.440079: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D1_P0_L36_b128_s4",
+  "params": 444865,
+  "epochs": 100,
+  "final_train_loss": 0.00043020243174396455,
+  "final_val_loss": 0.0004615002835635096,
+  "thresholds": {
+    "p95": 0.0009014099487103522,
+    "p99_5": 0.003803334664553404,
+    "pot_1e3": 0.8210600399056742
+  },
+  "events_testA": 75,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 6 --batch 128 --seed 0
+2026-11-09 00:35:12.358707: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:35:12.393502: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:35:13.091702: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794155714.450661 3805738 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:35:16.353478: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L6_b128_s0",
+  "params": 556225,
+  "epochs": 100,
+  "final_train_loss": 5.72521603317e-05,
+  "final_val_loss": 7.916440517874435e-05,
+  "thresholds": {
+    "p95": 0.0001308220234932378,
+    "p99_5": 0.0007641338161192834,
+    "pot_1e3": 0.017513919601543904
+  },
+  "events_testA": 328,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 6 --batch 128 --seed 1
+2026-11-09 00:39:44.601721: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:39:44.636492: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:39:45.319784: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794155986.805563 3836357 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:39:48.651123: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L6_b128_s1",
+  "params": 556225,
+  "epochs": 38,
+  "final_train_loss": 0.0002832857717294246,
+  "final_val_loss": 0.00020291510736569762,
+  "thresholds": {
+    "p95": 0.0007067010155878961,
+    "p99_5": 0.0038993728812783957,
+    "pot_1e3": 0.13385846192896433
+  },
+  "events_testA": 162,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 6 --batch 128 --seed 2
+2026-11-09 00:41:33.124633: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:41:33.164246: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:41:33.878045: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794156095.257526 3848926 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:41:37.083742: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L6_b128_s2",
+  "params": 556225,
+  "epochs": 54,
+  "final_train_loss": 0.0005030472530052066,
+  "final_val_loss": 0.00024256679171230644,
+  "thresholds": {
+    "p95": 0.0004313830577302724,
+    "p99_5": 0.0028222757391631603,
+    "pot_1e3": 0.10024512473535156
+  },
+  "events_testA": 196,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 6 --batch 128 --seed 3
+2026-11-09 00:44:02.208632: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:44:02.243644: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:44:02.933452: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794156244.321048 3866054 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:44:06.180439: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L6_b128_s3",
+  "params": 556225,
+  "epochs": 39,
+  "final_train_loss": 0.0002891189942602068,
+  "final_val_loss": 0.0002451422333251685,
+  "thresholds": {
+    "p95": 0.0006180967320688069,
+    "p99_5": 0.0037533831782639027,
+    "pot_1e3": 0.12065413429427528
+  },
+  "events_testA": 180,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 6 --batch 128 --seed 4
+2026-11-09 00:45:52.476820: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:45:52.511784: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:45:53.197773: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794156354.576598 3878900 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:45:56.501809: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L6_b128_s4",
+  "params": 556225,
+  "epochs": 100,
+  "final_train_loss": 4.156226714258082e-05,
+  "final_val_loss": 4.6862329327268526e-05,
+  "thresholds": {
+    "p95": 0.00011147832265123725,
+    "p99_5": 0.0005128036718815565,
+    "pot_1e3": 0.0129420159442339
+  },
+  "events_testA": 354,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 18 --batch 128 --seed 0
+2026-11-09 00:50:19.166044: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:50:19.200825: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:50:19.890906: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794156621.238620 3909289 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:50:23.299895: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L18_b128_s0",
+  "params": 556225,
+  "epochs": 100,
+  "final_train_loss": 0.00014917839143890887,
+  "final_val_loss": 0.00021753960754722357,
+  "thresholds": {
+    "p95": 0.0004135153430979699,
+    "p99_5": 0.0017168232006952167,
+    "pot_1e3": 0.0778622164546467
+  },
+  "events_testA": 135,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 18 --batch 128 --seed 1
+2026-11-09 00:55:55.008709: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 00:55:55.043314: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 00:55:55.751110: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794156957.140641 3944385 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 00:55:59.134280: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L18_b128_s1",
+  "params": 556225,
+  "epochs": 100,
+  "final_train_loss": 0.0002307053655385971,
+  "final_val_loss": 0.00028450024547055364,
+  "thresholds": {
+    "p95": 0.0003703998518176377,
+    "p99_5": 0.0015776779036968946,
+    "pot_1e3": 0.07073312340901085
+  },
+  "events_testA": 136,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 18 --batch 128 --seed 2
+2026-11-09 01:01:38.124644: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 01:01:38.159573: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 01:01:38.843920: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794157300.218890 3979447 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 01:01:42.326000: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L18_b128_s2",
+  "params": 556225,
+  "epochs": 100,
+  "final_train_loss": 0.0001466719841118902,
+  "final_val_loss": 0.00013198878150433302,
+  "thresholds": {
+    "p95": 0.00033185724169015884,
+    "p99_5": 0.0014371494762599468,
+    "pot_1e3": 0.06081773306000884
+  },
+  "events_testA": 144,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 18 --batch 128 --seed 3
+2026-11-09 01:07:20.285345: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 01:07:20.319559: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 01:07:21.009492: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794157642.370094 4014250 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 01:07:24.355176: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L18_b128_s3",
+  "params": 556225,
+  "epochs": 100,
+  "final_train_loss": 0.00012998133024666458,
+  "final_val_loss": 0.00014181938604451716,
+  "thresholds": {
+    "p95": 0.00038103334372863173,
+    "p99_5": 0.001518327509984374,
+    "pot_1e3": 0.048264434136486664
+  },
+  "events_testA": 139,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 18 --batch 128 --seed 4
+2026-11-09 01:13:07.761407: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 01:13:07.796450: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 01:13:08.478428: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794157989.811027 4049476 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 01:13:11.852945: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L18_b128_s4",
+  "params": 556225,
+  "epochs": 97,
+  "final_train_loss": 0.0002247701631858945,
+  "final_val_loss": 0.00030500200227834284,
+  "thresholds": {
+    "p95": 0.0003884339239448309,
+    "p99_5": 0.0017067582812160254,
+    "pot_1e3": 0.06384319244745691
+  },
+  "events_testA": 148,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 36 --batch 128 --seed 0
+2026-11-09 01:18:42.562628: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 01:18:42.597050: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 01:18:43.322767: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794158324.567485 4083362 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 01:18:46.879852: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L36_b128_s0",
+  "params": 556225,
+  "epochs": 100,
+  "final_train_loss": 0.0010808726074174047,
+  "final_val_loss": 0.002065710723400116,
+  "thresholds": {
+    "p95": 0.0008063914719969034,
+    "p99_5": 0.003366743214428425,
+    "pot_1e3": 0.2018343251202553
+  },
+  "events_testA": 85,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 36 --batch 128 --seed 1
+2026-11-09 01:26:41.027865: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 01:26:41.062692: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 01:26:41.744856: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794158803.100709 4127814 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 01:26:45.369593: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L36_b128_s1",
+  "params": 556225,
+  "epochs": 100,
+  "final_train_loss": 0.001125273760408163,
+  "final_val_loss": 0.0006453589303418994,
+  "thresholds": {
+    "p95": 0.0007291301735676825,
+    "p99_5": 0.0026488876901566982,
+    "pot_1e3": 0.20495685180593057
+  },
+  "events_testA": 102,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 36 --batch 128 --seed 2
+2026-11-09 01:34:35.649162: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 01:34:35.684302: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 01:34:36.375415: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794159277.621307 4171399 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 01:34:39.951743: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L36_b128_s2",
+  "params": 556225,
+  "epochs": 97,
+  "final_train_loss": 0.0032332672271877527,
+  "final_val_loss": 0.0007400569156743586,
+  "thresholds": {
+    "p95": 0.0007929125567898154,
+    "p99_5": 0.0031409035436809063,
+    "pot_1e3": 0.4687172667100726
+  },
+  "events_testA": 96,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 36 --batch 128 --seed 3
+2026-11-09 01:42:16.619402: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 01:42:16.653877: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 01:42:17.343362: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794159738.736955   22639 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 01:42:20.888674: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L36_b128_s3",
+  "params": 556225,
+  "epochs": 100,
+  "final_train_loss": 0.00038154766662046313,
+  "final_val_loss": 0.0005807324196211994,
+  "thresholds": {
+    "p95": 0.000810169440228492,
+    "p99_5": 0.003302613040432334,
+    "pot_1e3": 0.285163612436624
+  },
+  "events_testA": 86,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D2 --prep P0 --length 36 --batch 128 --seed 4
+2026-11-09 01:50:11.494736: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 01:50:11.528880: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 01:50:12.211493: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794160213.518286   66662 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 01:50:15.846245: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D2_P0_L36_b128_s4",
+  "params": 556225,
+  "epochs": 100,
+  "final_train_loss": 0.0003736484795808792,
+  "final_val_loss": 0.0005125767784193158,
+  "thresholds": {
+    "p95": 0.0008563470910303295,
+    "p99_5": 0.0038428092375397682,
+    "pot_1e3": 0.9453903183699642
+  },
+  "events_testA": 75,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 6 --batch 128 --seed 0
+2026-11-09 01:58:05.040815: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 01:58:05.075238: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 01:58:05.766211: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794160687.112161  110705 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 01:58:09.419705: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D3_P0_L6_b128_s0",
+  "params": 584257,
+  "epochs": 100,
+  "final_train_loss": 8.624912879895419e-05,
+  "final_val_loss": 6.797704554628581e-05,
+  "thresholds": {
+    "p95": 0.00015499891014769673,
+    "p99_5": 0.0010088926646858454,
+    "pot_1e3": 0.03374155798362606
+  },
+  "events_testA": 248,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 6 --batch 128 --seed 1
+2026-11-09 02:03:30.929236: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 02:03:30.963714: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 02:03:31.651627: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794161013.004767  145007 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 02:03:35.292819: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D3_P0_L6_b128_s1",
+  "params": 584257,
+  "epochs": 100,
+  "final_train_loss": 8.671227260492742e-05,
+  "final_val_loss": 0.0001913476298796013,
+  "thresholds": {
+    "p95": 0.00016920619236771017,
+    "p99_5": 0.0010084485402330756,
+    "pot_1e3": 0.05976357838635663
+  },
+  "events_testA": 258,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 6 --batch 128 --seed 2
+2026-11-09 02:09:03.329390: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 02:09:03.366032: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 02:09:04.067189: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794161345.434079  179433 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 02:09:07.729825: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D3_P0_L6_b128_s2",
+  "params": 584257,
+  "epochs": 44,
+  "final_train_loss": 0.0002484407741576433,
+  "final_val_loss": 0.0003464692854322493,
+  "thresholds": {
+    "p95": 0.0005550857167690992,
+    "p99_5": 0.003912772983312607,
+    "pot_1e3": 0.12316304830730969
+  },
+  "events_testA": 156,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 6 --batch 128 --seed 3
+2026-11-09 02:11:31.978505: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 02:11:32.013077: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 02:11:32.717519: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794161494.056972  195282 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 02:11:36.322895: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D3_P0_L6_b128_s3",
+  "params": 584257,
+  "epochs": 62,
+  "final_train_loss": 0.00019527558470144868,
+  "final_val_loss": 0.0002920500992331654,
+  "thresholds": {
+    "p95": 0.0004820466274395585,
+    "p99_5": 0.0028278634417802095,
+    "pot_1e3": 0.10560129000246614
+  },
+  "events_testA": 205,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 6 --batch 128 --seed 4
+2026-11-09 02:14:58.387248: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 02:14:58.423795: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 02:14:59.115081: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794161700.504052  216813 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 02:15:02.769301: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D3_P0_L6_b128_s4",
+  "params": 584257,
+  "epochs": 63,
+  "final_train_loss": 0.00014682802429888397,
+  "final_val_loss": 0.00020952057093381882,
+  "thresholds": {
+    "p95": 0.00039406027644872665,
+    "p99_5": 0.002794913249090314,
+    "pot_1e3": 0.06813958458221134
+  },
+  "events_testA": 203,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 18 --batch 128 --seed 0
+2026-11-09 02:18:27.640072: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 02:18:27.675292: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 02:18:28.385531: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794161909.721275  238872 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 02:18:32.161433: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D3_P0_L18_b128_s0",
+  "params": 584257,
+  "epochs": 83,
+  "final_train_loss": 0.0002923373249359429,
+  "final_val_loss": 0.00040730973705649376,
+  "thresholds": {
+    "p95": 0.0007865015650168061,
+    "p99_5": 0.003846635576337576,
+    "pot_1e3": 0.3192560111520088
+  },
+  "events_testA": 99,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 18 --batch 128 --seed 1
+2026-11-09 02:24:13.852807: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 02:24:13.887465: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 02:24:14.591628: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794162255.983547  272280 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 02:24:18.369384: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D3_P0_L18_b128_s1",
+  "params": 584257,
+  "epochs": 66,
+  "final_train_loss": 0.0011299054604023695,
+  "final_val_loss": 0.004746047779917717,
+  "thresholds": {
+    "p95": 0.0008892802288755774,
+    "p99_5": 0.004074996802955866,
+    "pot_1e3": 0.35918359821427165
+  },
+  "events_testA": 99,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 18 --batch 128 --seed 2
+2026-11-09 02:28:48.798776: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 02:28:48.833794: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 02:28:49.524063: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794162530.891330  299630 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 02:28:53.361980: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D3_P0_L18_b128_s2",
+  "params": 584257,
+  "epochs": 65,
+  "final_train_loss": 0.0007115058251656592,
+  "final_val_loss": 0.0004012283170595765,
+  "thresholds": {
+    "p95": 0.0010389069793745875,
+    "p99_5": 0.006582822650671005,
+    "pot_1e3": 0.6114791244755161
+  },
+  "events_testA": 69,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 18 --batch 128 --seed 3
+2026-11-09 02:33:23.023919: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 02:33:23.058884: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 02:33:23.743224: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794162805.089153  326206 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 02:33:27.511351: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D3_P0_L18_b128_s3",
+  "params": 584257,
+  "epochs": 53,
+  "final_train_loss": 0.0005029491730965674,
+  "final_val_loss": 0.0004833643906749785,
+  "thresholds": {
+    "p95": 0.00115011737216264,
+    "p99_5": 0.005596767645329237,
+    "pot_1e3": 0.40448638328470926
+  },
+  "events_testA": 87,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 18 --batch 128 --seed 4
+2026-11-09 02:37:06.885007: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 02:37:06.919945: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 02:37:07.610565: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794163028.935384  347878 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 02:37:11.332207: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D3_P0_L18_b128_s4",
+  "params": 584257,
+  "epochs": 88,
+  "final_train_loss": 0.000372919108485803,
+  "final_val_loss": 0.0003284820122644305,
+  "thresholds": {
+    "p95": 0.0006960827158764005,
+    "p99_5": 0.0033844104036688805,
+    "pot_1e3": 0.4128968092555539
+  },
+  "events_testA": 89,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 36 --batch 128 --seed 0
+2026-11-09 02:43:16.625466: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 02:43:16.660166: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 02:43:17.345461: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794163398.611404  383204 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 02:43:21.370446: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "run": "D3_P0_L36_b128_s0",
+  "params": 584257,
+  "epochs": 85,
+  "final_train_loss": 0.0004472151049412787,
+  "final_val_loss": 0.0007142535177990794,
+  "thresholds": {
+    "p95": 0.00120241055265069,
+    "p99_5": 0.005204489454627037,
+    "pot_1e3": 0.38865305777806
+  },
+  "events_testA": 85,
+  "fault_rows": 12
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 36 --batch 128 --seed 1
+2026-11-09 02:51:24.996073: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 02:51:25.031904: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 02:51:25.712598: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794163886.970791  427071 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 02:51:27.716098: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_15}}
+2026-11-09 02:51:29.724525: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+2026-11-09 02:51:35.004719: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_15}}
+2026-11-09 03:00:04.503162: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+2026-11-09 03:00:09.650899: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+{
+  "run": "D3_P0_L36_b128_s1",
+  "params": 584257,
+  "epochs": 91,
+  "final_train_loss": 0.0033897319808602333,
+  "final_val_loss": 0.001062172930687666,
+  "thresholds": {
+    "p95": 0.0010931181022897363,
+    "p99_5": 0.00450452184304595,
+    "pot_1e3": 0.26804780540083156
+  },
+  "events_testA": 86,
+  "fault_rows": 12,
+  "deterministic_ops": true
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 36 --batch 128 --seed 2
+2026-11-09 03:00:11.726785: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 03:00:11.761833: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 03:00:12.458620: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794164413.830036  473834 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 03:00:14.495220: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_15}}
+2026-11-09 03:00:16.459756: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+2026-11-09 03:00:21.973800: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_15}}
+2026-11-09 03:09:42.418471: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+2026-11-09 03:09:47.628223: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+{
+  "run": "D3_P0_L36_b128_s2",
+  "params": 584257,
+  "epochs": 100,
+  "final_train_loss": 0.00037187623092904687,
+  "final_val_loss": 0.0005460407119244337,
+  "thresholds": {
+    "p95": 0.0009387434693053365,
+    "p99_5": 0.0038803971838206053,
+    "pot_1e3": 0.4063018649782238
+  },
+  "events_testA": 91,
+  "fault_rows": 12,
+  "deterministic_ops": true
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 36 --batch 128 --seed 3
+2026-11-09 03:09:49.760158: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 03:09:49.795382: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 03:09:50.484662: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794164991.856954  524056 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 03:09:52.487000: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_15}}
+2026-11-09 03:09:54.449772: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+2026-11-09 03:09:59.997889: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_15}}
+2026-11-09 03:19:22.173386: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+2026-11-09 03:19:27.361405: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+{
+  "run": "D3_P0_L36_b128_s3",
+  "params": 584257,
+  "epochs": 100,
+  "final_train_loss": 0.0018042082665488124,
+  "final_val_loss": 0.010867766104638577,
+  "thresholds": {
+    "p95": 0.000827979645691812,
+    "p99_5": 0.003323250450193882,
+    "pot_1e3": 0.3104448489334979
+  },
+  "events_testA": 96,
+  "fault_rows": 12,
+  "deterministic_ops": true
+}
+RUN /edata/opt/klcc-experiment/.venv/bin/python /edata/opt/klcc-experiment/klcc_ad/scripts/run_one.py --exp E2 --depth D3 --prep P0 --length 36 --batch 128 --seed 4
+2026-11-09 03:19:29.427331: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-09 03:19:29.462514: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-09 03:19:30.146748: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794165571.450879  573678 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13938 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-09 03:19:32.198546: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_15}}
+2026-11-09 03:19:34.265443: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+2026-11-09 03:19:39.684589: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_15}}
+2026-11-09 03:29:03.057389: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+2026-11-09 03:29:08.247966: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+{
+  "run": "D3_P0_L36_b128_s4",
+  "params": 584257,
+  "epochs": 100,
+  "final_train_loss": 0.0004528320278041065,
+  "final_val_loss": 0.000516763306222856,
+  "thresholds": {
+    "p95": 0.000842881272546947,
+    "p99_5": 0.0037673385813832283,
+    "pot_1e3": 0.28318503054597727
+  },
+  "events_testA": 76,
+  "fault_rows": 12,
+  "deterministic_ops": true
+}
+{"experiment": "E2", "runs": 45}

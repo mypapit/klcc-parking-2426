@@ -1,0 +1,7 @@
+fault,injections,detected_by_ae,detection_rate
+F1,50,0,0.0
+F2,50,50,1.0
+F3,50,23,0.46
+F4,50,0,0.0
+F5,50,26,0.52
+F6,50,50,1.0

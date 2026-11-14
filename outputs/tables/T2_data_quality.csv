@@ -1,0 +1,9 @@
+metric,value
+median_interval_min_mean,9.410964513193813
+median_interval_min_median,9.983333333333333
+median_interval_min_max,11.116666666666667
+duplicate_rows_per_month_mean,4.46875
+duplicate_rows_per_month_max,11.0
+out_of_range_total,0.0
+full_capacity_total,3401.0
+full_capacity_months_max,274.0

@@ -1,0 +1,15 @@
+{
+  "deterministic_ops": true,
+  "epochs": 100,
+  "events_testA": 142,
+  "fault_rows": 12,
+  "final_train_loss": 0.0020254761911928654,
+  "final_val_loss": 0.0004607535956893116,
+  "params": 584257,
+  "run": "D3_P1_L36_b128_s3",
+  "thresholds": {
+    "p95": 0.0006627351394854486,
+    "p99_5": 0.002085526939481497,
+    "pot_1e3": 0.029339179631373762
+  }
+}

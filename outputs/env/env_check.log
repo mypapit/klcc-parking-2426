@@ -1,0 +1,35 @@
+2026-11-08 18:01:50.177668: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-08 18:01:50.212156: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-08 18:01:50.934227: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794132112.258392 1437975 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 12059 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:01:00.0, compute capability: 8.9
+2026-11-08 18:01:53.573244: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 92501
+{
+  "build_info": {
+    "cpu_compiler": "clang 18",
+    "cuda_compute_capabilities": [
+      "sm_60",
+      "sm_70",
+      "sm_80",
+      "sm_89",
+      "compute_90"
+    ],
+    "cuda_version": "12.5.1",
+    "cudnn_version": "9",
+    "is_cuda_build": true,
+    "is_rocm_build": false,
+    "is_tensorrt_build": false
+  },
+  "cpu": "Model name:                              Intel(R) Core(TM) i7-14700\nBIOS Model name:                         Intel(R) Core(TM) i7-14700 To Be Filled By O.E.M. CPU @ 2.0GHz\nThread(s) per core:                      2\nCore(s) per socket:                      20\nSocket(s):                               1",
+  "freeze_path": "/edata/opt/klcc-experiment/klcc_ad/outputs/env/requirements_frozen.txt",
+  "gpus": [
+    "/physical_device:GPU:0"
+  ],
+  "memory": "Mem:              62          19           1           1          43          43",
+  "nvidia_smi": "name, driver_version, memory.total [MiB]\nNVIDIA GeForce RTX 4060 Ti, 615.71.10, 16380 MiB",
+  "platform": "Linux-6.8.0-106-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "smoke_loss": 0.2989087700843811,
+  "tensorflow": "2.20.0"
+}

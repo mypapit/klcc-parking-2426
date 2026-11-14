@@ -1,0 +1,6 @@
+step,rows_before,rows_after,rows_removed
+load_filter_sort,166578,166578,0
+drop_exact_duplicates,166578,166578,0
+same_timestamp_keep_last,166578,145488,21090
+drop_out_of_range,145488,145488,0
+exclude_pre_2022_04_25,145488,100283,45205

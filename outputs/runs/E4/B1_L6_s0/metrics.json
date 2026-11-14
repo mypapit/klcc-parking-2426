@@ -1,0 +1,11 @@
+{
+  "baseline": "B1",
+  "event_recall": 0.2683,
+  "events_testA": 21,
+  "events_testB": 11,
+  "length": 6,
+  "protocol": "5copies",
+  "saves_scores": true,
+  "seed": 0,
+  "threshold_p99_5": 17.049518585205078
+}

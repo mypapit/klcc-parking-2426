@@ -1,0 +1,5 @@
+source,true_class,predicted_class,count
+injected,sensor fault,demand anomaly,14
+injected,sensor fault,sensor fault,46
+real event day,demand anomaly,demand anomaly,42
+real event day,demand anomaly,sensor fault,2
